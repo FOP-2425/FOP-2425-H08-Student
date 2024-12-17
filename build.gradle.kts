@@ -31,3 +31,7 @@ tasks {
         }
     }
 }
+
+application {
+    applicationDefaultJvmArgs += "-ea"
+}
