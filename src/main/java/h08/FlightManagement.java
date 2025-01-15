@@ -57,7 +57,6 @@ public class FlightManagement {
      * @param airportCode  the airport code from which the flight should be returned
      * @param flightNumber the flight number of the flight
      * @return a flight from a specific airport
-     * @throws FlightNotFoundException if the flight ist not found
      */
     public Flight getFlight(String airportCode, String flightNumber){
         //TODO H8.5.1
